@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- -----font link for captions of img------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="dropdown.css">
+
+    <style>
+        body{
+            background-color: #004E59;
+        }
+        .btns{
+    border: none;
+    font-size: large;
+    color: #DCC7B7;
+    background-color: #004E59;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+        .img1{
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        width: 1349px;
+        height: 100px;
+        }
+        .quote{
+        position: absolute;
+        left: 300px;
+        top: 115px;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-family: 'Edu TAS Beginner', cursive;
+        }
+        .Classicstxt{
+        position: absolute;
+        color: #DCC7B7;
+        font-size: 40px;
+        left: 620px;
+        top: 250px;
+         
+        }
+        .animate{
+            position: absolute;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            top: 300px;
+            padding: 70px;
+            gap: 120px;
+            
+        }
+        .subdiv{
+            height: 300px;
+            width: 300px;
+            border-radius: 15px;
+        }
+        .cap1{
+            position: absolute;
+            font-family: 'Libre Baskerville', serif;
+            background-color:#ffffff;
+            border-radius: 10px;
+            font-size: large;
+            padding: 10px;
+            top: 670px;
+            left: 170px;
+            color: rgb(0, 0, 0)
+        }
+        .cap2{
+            position: absolute;
+            top: 670px;
+            left: 620px;
+            border-radius: 10px;
+            background-color:#ffffff;
+            font-family: 'Libre Baskerville', serif;
+            font-size: large;
+            padding: 10px;
+            color: rgb(0, 0, 0)
+            
+        }
+        .cap3{
+            position: absolute;
+            top: 670px;
+            left: 1040px;
+            border-radius: 10px;
+            background-color:#ffffff;
+            font-family: 'Libre Baskerville', serif;
+            font-size: large;
+            padding: 10px;
+            color: rgb(0, 0, 0)
+        }
+        .cap4{
+            position: absolute;
+            top: 1090px;
+            left: 170px;
+            background-color:#ffffff;
+            border-radius:10px;
+            font-family: 'Libre Baskerville', serif;
+            font-size: large;
+            padding: 10px;
+            color: rgb(0, 0, 0)
+        }
+        .cap5{
+            position: absolute;
+            top: 1090px;
+            left: 620px;
+            background-color:#ffffff;
+            border-radius: 10px;
+            font-family: 'Libre Baskerville', serif;
+            font-size: large;
+            padding: 10px;
+            color: rgb(0, 0, 0)
+        }
+        .cap6{
+            position: absolute;
+            top: 1090px;
+            left: 1020px;
+            padding: 10px;
+            background-color:#ffffff;
+            border-radius: 10px;
+            font-family: 'Libre Baskerville', serif;
+            font-size: large;
+            color: rgb(0, 0, 0)
+        }
+        .scale:hover{
+            transform: scale(1.07,1.07)
+        }
+    </style>
+</head>
+
+<body>
+    <!------------logo------------->
+    <img src="images/logo.jpg" class="logo1" height="150" width="220"> 
+    <img src="images/p2img1.png" class="img1">
+    <p class="quote">☯ "Life is too short for bad coffee" ☯</p>
+    <h1 class="Classicstxt">Classics</h1>
+    <!---------------------------------------->
+    
+    <div class="animate">
+    <img src="images/quickfilter.webp"class="subdiv scale">
+    <img src="images/piccolo.jpg"     class="subdiv scale">
+    <img src="images/espresso.gif"    class="subdiv scale">
+    <img src="images/cappicuno.jpg"   class="subdiv scale">
+    <img src="images/latte.jpg"       class="subdiv scale">
+    <img src="images/slowdrip.jpg"    class="subdiv scale">
+    </div>
+
+     <p class="cap1 scale">QuickFilter - 199₹</p>
+     <p class="cap2 scale">Piccolo - 229₹</p>
+     <p class="cap3 scale">Espresso - 249₹</p>
+     <p class="cap4 scale">Capp scaleicuno - 299₹</p>
+     <p class="cap5 scale">Latte - 279₹</p>
+     <p class="cap6 scale">Slowdrip - 679₹</p>
+     
+
+    
+
+    <ul class= "ul1" >
+        <li class=li1><a href="index.html"><button  class="btns"><i class="fa-solid fa-house"></i>HOME </i></i></button></a></li>
+        <li class=li1><a href="menu.html"><button class="btns" ><i class="fa-solid fa-bars"></i></i>MENU</button></a></li>
+        <li class=li1><a href="ourstory.html"><button class="btns" ><i class="fa-solid fa-people-group"></i>OUR STORY</button></a></li>
+        <li class=li1><a href="shopnow.html"><button class="btns" ><i class="fa-solid fa-cart-shopping fa-shake"></i>SHOP NOW <i class="fa-solid fa-caret-down"></i></button></a>
+        <ul class="ul2">
+            <li class="li2"><a class="a2" href="coffeepowders.html#coffeepowders">Coffee Powders</li> 
+            <li class="li2"><a class="a2" href="coffeepowders.html#coffeemakers">Coffee Maker</li>
+        </ul>
+        </li>
+        <li class="li1"><a href="contactus.html"><button class="btns"><i class="fa-solid fa-square-phone"></i>CONTACT US</button></a></li>
+    </ul>
+</body>
+</html>

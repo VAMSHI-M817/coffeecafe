@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dropdown.css">
+
+    <style>
+        .img1{
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        width: 1366px;
+        height: 100px;
+        }
+        .quote{
+        position: absolute;
+        left: 300px;
+        top: 115px;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-family: 'Edu TAS Beginner', cursive;
+        }
+        body{
+        background-color:#004E59;
+        }
+        h3{
+        position: absolute;
+        top: -60px;
+        font-size: 25px;
+        }
+        .loginform{
+        position: absolute;
+        font-size: 25px;
+        color: #DCC7B7;
+        top: 300px;
+        left: 400px;
+        }
+        .btns{
+    border: none;
+    font-size: large;
+    color: #DCC7B7;
+    background-color: #004E59;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+</style>
+     
+</head>
+<body>
+    <img src="images/logo.jpg" class="logo1" height="150" width="220"> 
+    <img src="images/p2img1.png" class="img1">
+    <p class="quote">“If you have a dream, don't just sit there....</p>
+
+
+    <ul class= "ul1" >
+        <li class=li1><a href="index.html"><button  class="btns"><i class="fa-solid fa-house"></i>HOME</i></button></a></li>
+        <li class=li1><a href="menu.html"><button class="btns" ><i class="fa-solid fa-bars"></i>MENU</button></a></li>
+        <li class=li1><a href="ourstory.html"><button class="btns" ><i class="fa-solid fa-people-group"></i>OUR STORY</button></a></li>
+        <li class=li1><a href="shopnow.html"><button class="btns" ><i class="fa-solid fa-cart-shopping fa-shake"></i>SHOP NOW <i class="fa-solid fa-caret-down"></i></button></a>
+        <ul class="ul2">
+            <li class="li2"><a class="a2" href="coffeepowders.html#coffeepowders">Coffee Powders</li> 
+            <li class="li2"><a class="a2" href="coffeepowders.html#coffeemakers">Coffee Makers</li>
+        </ul>
+        </li>
+        <li class="li1"><a href="contactus.html"><button class="btns"><i class="fa-solid fa-square-phone"></i>CONTACT US</button></a></li>
+    </ul>
+
+        <div class="loginform">
+         
+        <h3>FRANCHAISE REGISTRATION</h3>
+        <br>
+        <form>
+        <table>
+        <tr>
+            <td><label>Enter Username</label></td>
+            <td><input type="text" placeholder="Username"></td>
+        </tr>
+        <tr>
+            <td><label>Enter Gmail</label></td>
+            <td><input type="email" placeholder="Email"></td>
+        </tr>
+        <tr>
+            <td><label>Enter Phone</label></td>
+            <td><input type="number" placeholder="Phone Number"></td>
+        </tr>   
+        <tr>
+            <td><label>Gender</label></td>
+            <td><input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">Prefer not to say
+            </td>
+        </tr>
+        <tr>
+            <td><label>Profile Photo</label></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td><label>Select Your State</label></td>
+            <td><select>
+                <option>          </option>
+                <option>Telangana</option>
+                <option>Andhra Pradesh</option>
+                <option>Delhi</option>
+                <option>TamilNadu</option>
+                <option>Kerala</option>
+                
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Select Your City</label>
+            </td>
+            <td>
+                <input list="My city">
+                <datalist id = "My city">
+                <option>Hyderabad</option>
+                <option>Vizag</option>
+                <option>Chennai</option>
+                <option>Ahmedabad</option>
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>CheckBox</label>
+            </td>
+            <td>
+                <input type="checkbox">Agree for terms and Conditions
+            </td>
+        </tr>
+        <tr>
+            <td><label>CheckBox</label></td>
+            <td>
+                <input type="submit" value="Submit  ">
+                <input type="reset">
+            </td>
+        </tr>
+        </table>
+        </form>
+        </div>
+
+</body>
+
+</html>

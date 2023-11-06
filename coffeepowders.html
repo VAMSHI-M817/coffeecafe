@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Powders</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dropdown.css">
+    <style>
+        body{
+        background-color: #004E59;
+        }
+     .btns{
+        border: none;
+        font-size: large;
+        color: #DCC7B7;
+        background-color: #004E59;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .imagesDIV1{
+            position: absolute;
+            top: 100px;
+            left: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 100px;
+            gap: 100px;
+        }
+        .imagesDIV2{
+            position: absolute;
+            top: 850px;
+            left: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 100px;
+            gap: 100px;
+        }
+        .images1{
+            height: 450px;
+            width: 350px;
+            border-radius: 20px;
+            box-shadow: #8bb9bf;
+        }
+        .images2{
+            height: 450px;
+            width: 350px;
+            border-radius: 20px;
+            box-shadow: #8bb9bf;
+        }
+        .scale:hover{
+            transform: scale(1.07,1.07)
+        }
+        .title1{
+            position: absolute;
+            top: 70px;
+            left: 450px;
+            font-size: 50px;
+            color: antiquewhite;
+        }
+        .title2{
+            position: absolute;
+            top: 800px;
+            left: 450px;
+            font-size: 50px;
+            color: antiquewhite;
+        }
+        .price1{
+            position: absolute;
+            top: 640px;
+            left: 300px;
+            color: #DCC7B7;
+            font-size: 30px;
+             
+        }
+        .price2{
+            position: absolute;
+            top: 640px;
+            left: 800px;
+            color: #DCC7B7;
+            font-size: 30px;
+             
+        }
+        .price3{
+            position: absolute;
+            top: 1390px;
+            left: 300px;
+            color: #DCC7B7;
+            font-size: 30px;
+        }
+        .price4{
+            position: absolute;
+            top: 1390px;
+            left: 770px;
+            color: #DCC7B7;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <ul class= "ul1" >
+        <li class=li1><a href="index.html"><button  class="btns"><i class="fa-solid fa-house"></i>HOME </i></i></button></a></li>
+        <li class=li1><a href="menu.html"><button class="btns" ><i class="fa-solid fa-bars"></i></i>MENU</button></a></li>
+        <li class=li1><a href="ourstory.html"><button class="btns" ><i class="fa-solid fa-people-group"></i>OUR STORY</button></a></li>
+        <li class=li1><a href="shopnow.html"><button class="btns" ><i class="fa-solid fa-cart-shopping fa-shake"></i>SHOP NOW <i class="fa-solid fa-caret-down"></i></button></a>
+        <ul class="ul2">
+            <li class="li2"><a class="a2" href="coffeepowders.html">Coffee Powders</li> 
+            <li class="li2"><a class="a2" href="#coffeemakers">Coffee Makers</li>
+        </ul>
+        </li>
+        <li class="li1"><a href="contactus.html"><button class="btns"><i class="fa-solid fa-square-phone"></i>CONTACT US</button></a></li>
+    </ul>
+
+    <p class="title1" id="coffeepowders">COFFEE POWDERS</p>
+    <div class="imagesDIV1">
+        <img src="images/arabicacofepow.jpg" class="images1 scale" >
+        <img src="images/robustacofepow.jpg" class="images1 scale">
+    </div>
+    <div>
+        <p class="price1">1200₹<br>UPTO -70% OFF<br>ROASTED PURE <br>ARABICA COFFEE POWDER</p>
+        <p class="price2">1200₹ <br>UPTO -70%<br>ROASTED PURE <br>ROBUSTA COFFEE POWDER</p>
+    </div>
+    <p class="title2" id="coffeemakers">COFFEE MAKERS</p>
+    <div class="imagesDIV2">
+        <img src="images/cofffegrinder.jpg" class="images2 scale" >
+        <img src="images/coffeeprocess.jpg" class="images2 scale">
+    </div>
+    <div>
+        <p class="price3">7999₹<br>COFFEE GRINDER</p>
+        <p class="price4">29999₹ <br>COFFEE PROCESSING</p>
+    </div>
+</body>
+</html>
